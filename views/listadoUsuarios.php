@@ -77,7 +77,7 @@
             <h2 class="text-center mb-4 py-3 bg-titles text-white">Listado de Usuarios</h2>
             <div class="container text-end mb-3">
                 <form action="./listadoUsuariosNombre.php" method="post" class="btn-group my-3" role="group" aria-label="Basic example">
-                    <input type="text" placeholder="Buscar por Usuario" name="seachUserNombre" id="seachUserNombre">
+                    <input type="text" placeholder="Buscar por Usuario" name="seachUserNombre" id="seachUserNombre" required>
                     <button type="submit" name="ok" class="btn btn-dark">Buscar</button>
                 </form>
             </div>

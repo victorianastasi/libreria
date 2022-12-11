@@ -85,7 +85,7 @@
                     <button type="submit" name="ok" class="btn btn-dark">Buscar</button>
                 </form>
                 <form action="./listadoLibrosStock.php" method="post" class="btn-group m-3" role="group" aria-label="Basic example">
-                    <input type="number" placeholder="Stock menor a ..." name="seachBookStock" id="seachBookStock" required>
+                    <input type="number" placeholder="Stock menor a ..." name="seachBookStock" id="seachBookStock" min="0" required>
                     <button type="submit" name="ok" class="btn btn-dark">Buscar</button>
                 </form>
             </div>

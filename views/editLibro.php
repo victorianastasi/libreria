@@ -102,7 +102,7 @@
                     </div>
                     <div class="col-12">
                         <label for="editYear" class="form-label">Año</label>
-                        <input type="number" class="form-control" id="editYear" name="editYear" required value="<?php echo $libroEditar[0]->getYear(); ?>">
+                        <input type="number" class="form-control" id="editYear" name="editYear" min="0" required value="<?php echo $libroEditar[0]->getYear(); ?>">
                     </div>
                     <div class="col-12">
                         <label for="editCountry" class="form-label">País</label>
@@ -114,7 +114,7 @@
                     </div>
                     <div class="col-12">
                         <label for="editStock" class="form-label">Stock</label>
-                        <input type="number" class="form-control" id="editStock" name="editStock" required value="<?php echo $libroEditar[0]->getStock(); ?>">
+                        <input type="number" class="form-control" id="editStock" name="editStock" min="0" required value="<?php echo $libroEditar[0]->getStock(); ?>">
                     </div>
 
                     <div class="col-12">
