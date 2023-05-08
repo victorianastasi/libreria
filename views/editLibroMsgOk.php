@@ -163,7 +163,11 @@
                         echo "</td>";
 
                         echo "<td class='text-center'>";
+                        echo "<a href='./deleteLibro.php?id=";
+                        echo $book->getId();
+                        echo "'>";
                         echo "<i class='fas fa-trash text-danger'></i>";
+                        echo "</a>";
                         echo "</td>";
 
                         echo "<td class='text-center'>";
